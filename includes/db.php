@@ -4,7 +4,7 @@ require 'password.php';
 
 class Db {
     private $db;
-    public function __construct($db_name, $db_password, $db_username) {
+    public function __construct($db_name, $db_username, $db_password ) {
         $this->db = new PDO('mysql:host=localhost;dbname=' . $db_name, $db_username, $db_password);
     }
 

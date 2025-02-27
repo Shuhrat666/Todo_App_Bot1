@@ -2,6 +2,7 @@
 
 require 'credentials/token.php';
 require 'includes/password.php';
+require 'bot.php';
 
 $input = file_get_contents('php://input');
 $update = json_decode($input, true);
