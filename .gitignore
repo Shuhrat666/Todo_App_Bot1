@@ -4,3 +4,5 @@ composer.json
 composer.lock
 vendor
 source.phptest1.php
+log.txt
+test1.php
